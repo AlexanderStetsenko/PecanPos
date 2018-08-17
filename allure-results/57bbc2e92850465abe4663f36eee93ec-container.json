@@ -1,0 +1,12 @@
+{
+  "uuid": "0883b90a-ce25-4e1d-af4b-362e04ea9e82-tc-0-1000",
+  "name": "PecanTest.Tests.UnitTest1.TestMethod2",
+  "children": [
+    "1a6b829e-25e5-4a0b-9b31-95fd5ff2cf20-tr-0-1002"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1532612084981,
+  "stop": 1532612149999
+}

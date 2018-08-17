@@ -1,0 +1,85 @@
+{
+  "uuid": "c9a5e185-bfb5-463a-90cb-18552c09db4c-tr-0-1001",
+  "historyId": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "fullName": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GI0ECH4"
+    },
+    {
+      "name": "testClass",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod1"
+    },
+    {
+      "name": "package",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub#1",
+      "url": "https://example.org/https://github.com/unickq/allure-nunit",
+      "type": "issue"
+    }
+  ],
+  "name": "TestMethod1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Test A\n",
+  "steps": [
+    {
+      "name": "TestMethod1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Console Output",
+          "value": ""
+        }
+      ],
+      "start": 1532618022514,
+      "stop": 1532618034052
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1532618022513,
+  "stop": 1532618034059
+}

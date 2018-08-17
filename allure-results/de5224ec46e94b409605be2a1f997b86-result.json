@@ -1,0 +1,89 @@
+{
+  "uuid": "e6353ad9-e053-4939-b7b9-55440b8ac6bd-tr-0-1001",
+  "historyId": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "fullName": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GI0ECH4"
+    },
+    {
+      "name": "testClass",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod1"
+    },
+    {
+      "name": "package",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub#1",
+      "url": "https://example.org/https://github.com/unickq/allure-nunit",
+      "type": "issue"
+    }
+  ],
+  "name": "TestMethod1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.",
+    "trace": "   в PecanTest.Framework.Elements.Button.Click() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\Button.cs:строка 24\r\n   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 28"
+  },
+  "stage": "finished",
+  "description": "Test A\n",
+  "steps": [
+    {
+      "name": "TestMethod1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.",
+        "trace": "   в PecanTest.Framework.Elements.Button.Click() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\Button.cs:строка 24\r\n   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 28"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Console Output",
+          "value": ""
+        }
+      ],
+      "start": 1532670239944,
+      "stop": 1532670244978
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1532670239943,
+  "stop": 1532670244984
+}

@@ -1,0 +1,63 @@
+{
+  "uuid": "cf9ba06a-1e91-4e9e-9e5f-992a78f45953-tr-0-1002",
+  "historyId": "PecanTest.Tests.UnitTest1.TestMethod2",
+  "fullName": "PecanTest.Tests.UnitTest1.TestMethod2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GI0ECH4"
+    },
+    {
+      "name": "testClass",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod2"
+    },
+    {
+      "name": "package",
+      "value": "PecanTest.Tests.UnitTest1"
+    }
+  ],
+  "links": [],
+  "name": "TestMethod2",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Test B\n",
+  "steps": [
+    {
+      "name": "TestMethod2",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Console Output",
+          "value": ""
+        }
+      ],
+      "start": 1532612730785,
+      "stop": 1532612740022
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1532612730785,
+  "stop": 1532612740022
+}

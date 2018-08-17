@@ -1,0 +1,89 @@
+{
+  "uuid": "00caa49c-1d55-4083-8687-f46152b98b03-tr-0-1001",
+  "historyId": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "fullName": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GI0ECH4"
+    },
+    {
+      "name": "testClass",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod1"
+    },
+    {
+      "name": "package",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub#1",
+      "url": "https://example.org/https://github.com/unickq/allure-nunit",
+      "type": "issue"
+    }
+  ],
+  "name": "TestMethod1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.",
+    "trace": "   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 31"
+  },
+  "stage": "finished",
+  "description": "Test A\n",
+  "steps": [
+    {
+      "name": "TestMethod1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.",
+        "trace": "   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Console Output",
+          "value": ""
+        }
+      ],
+      "start": 1534239642067,
+      "stop": 1534239646728
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1534239642066,
+  "stop": 1534239646733
+}

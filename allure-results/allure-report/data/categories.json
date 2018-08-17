@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//app-home-button/a[span='Back Office']\"}\n  (Session info: content shell=)\n  (Driver info: chromedriver=2.36 (2006b899d1927dd260ea0f170bdf01c2d5eda6a1),platform=Windows NT 10.0.17134 x86_64)",
+      "children" : [ {
+        "name" : "TestMethod2",
+        "uid" : "4ebce67a65d9c953",
+        "parentUid" : "864002d76d36406fe2f0bacc3af3f1fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532611517662,
+          "stop" : 1532611522737,
+          "duration" : 5075
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "864002d76d36406fe2f0bacc3af3f1fc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

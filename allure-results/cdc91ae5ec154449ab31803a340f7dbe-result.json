@@ -1,0 +1,89 @@
+{
+  "uuid": "57d8f951-ddb8-4b31-b3e7-240cc1634cd7-tr-0-1001",
+  "historyId": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "fullName": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GI0ECH4"
+    },
+    {
+      "name": "testClass",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod1"
+    },
+    {
+      "name": "package",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub#1",
+      "url": "https://example.org/https://github.com/unickq/allure-nunit",
+      "type": "issue"
+    }
+  ],
+  "name": "TestMethod1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 6 but was 0. Strings differ at index 0.\r\n  Expected: \"-DBFDD\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n",
+    "trace": "   в PecanTest.Framework.Elements.PriceField.CheckFillAlphabetic() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\PriceField.cs:строка 32\r\n   в PecanTest.Framework.Elements.PriceField.CheckThatPriceField() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\PriceField.cs:строка 26\r\n   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 38\r\n"
+  },
+  "stage": "finished",
+  "description": "Test A\n",
+  "steps": [
+    {
+      "name": "TestMethod1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 6 but was 0. Strings differ at index 0.\r\n  Expected: \"-DBFDD\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n",
+        "trace": "   в PecanTest.Framework.Elements.PriceField.CheckFillAlphabetic() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\PriceField.cs:строка 32\r\n   в PecanTest.Framework.Elements.PriceField.CheckThatPriceField() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\PriceField.cs:строка 26\r\n   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 38\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Console Output",
+          "value": ""
+        }
+      ],
+      "start": 1534345059176,
+      "stop": 1534345063159
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1534345059175,
+  "stop": 1534345063164
+}

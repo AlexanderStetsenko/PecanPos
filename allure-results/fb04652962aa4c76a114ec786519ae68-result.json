@@ -1,0 +1,89 @@
+{
+  "uuid": "1224bdad-5347-4a00-bd00-050922a170c2-tr-0-1001",
+  "historyId": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "fullName": "PecanTest.Tests.UnitTest1.TestMethod1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GI0ECH4"
+    },
+    {
+      "name": "testClass",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMethod1"
+    },
+    {
+      "name": "package",
+      "value": "PecanTest.Tests.UnitTest1"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub#1",
+      "url": "https://example.org/https://github.com/unickq/allure-nunit",
+      "type": "issue"
+    }
+  ],
+  "name": "TestMethod1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 49\r\n  But was:  48\r\n",
+    "trace": "   в PecanTest.Framework.Elements.RequiredInputField.CheckMaxChars() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\InputField.cs:строка 31\r\n   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 28\r\n"
+  },
+  "stage": "finished",
+  "description": "Test A\n",
+  "steps": [
+    {
+      "name": "TestMethod1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 49\r\n  But was:  48\r\n",
+        "trace": "   в PecanTest.Framework.Elements.RequiredInputField.CheckMaxChars() в H:\\Projects\\PecanGuiTest\\PecanTest\\Framework\\Elements\\InputField.cs:строка 31\r\n   в PecanTest.Tests.UnitTest1.TestMethod1() в H:\\Projects\\PecanGuiTest\\PecanTest\\Tests\\UnitTest1.cs:строка 28\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Console Output",
+          "value": ""
+        }
+      ],
+      "start": 1534233111344,
+      "stop": 1534233114270
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1534233111343,
+  "stop": 1534233114275
+}
