@@ -13,7 +13,7 @@ namespace PecanTest.Framework.ScreenObjects
             this.path = path;
         }
 
-        public override Element InitWebElements() {
+        protected override Element InitWebElements() {
             backOfficeButton = new Button(name: "back Office Button", 
                                           path: By.XPath("//app-home-button/a[span='Back Office']"), 
                                           this);

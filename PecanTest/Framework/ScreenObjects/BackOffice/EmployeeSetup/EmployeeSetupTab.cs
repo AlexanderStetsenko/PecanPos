@@ -13,7 +13,7 @@ namespace PecanTest.Framework.ScreenObjects.BackOffice.EmployeeSetup
         {
         }
 
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
             employeeJobTitleButton = new Button("Employee Job Title", By.XPath("//button[span='Employee Job Titles']"), this);
             employeeListButton = new Button("Employee Job Title", By.XPath("//button[span='Employee List']"), this);

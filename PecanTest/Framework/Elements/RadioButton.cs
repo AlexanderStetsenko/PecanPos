@@ -24,7 +24,7 @@ namespace PecanTest.Framework.Elements
             List<Option> _options = radioButtonOption.GetOptionWebElementsList(this, radioButtonOption);
             driver.FindElement(_options.First(o => o.Label == optionName).path).Click();
         }
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
             radioButtonOption = new Option(By.XPath(".//mat-radio-button"), this);
             return this;

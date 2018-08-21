@@ -12,8 +12,6 @@ namespace PecanTest.Framework.Elements
 {
     public class RequiredInputField : InputField, IRequired
     {
-        public int maxChar;
-
         public RequiredInputField(string name, By path, int maxChar) : base(name, path, maxChar)
         {
         }

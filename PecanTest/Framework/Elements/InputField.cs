@@ -14,9 +14,15 @@ namespace PecanTest.Framework.Elements
     {
         public int maxChar;
 
+        public InputField(string name, By path) : base(name, path)
+        {
+        }
         public InputField(string name, By path, int maxChar) : base(name, path)
         {
             this.maxChar = maxChar;
+        }
+        public InputField(string name, By path, Element parent) : base (name, path, parent) {
+
         }
         public InputField(string name, By path, Element parent, int maxChar) : base(name, path, parent)
         {
