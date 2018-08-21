@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PecanTest.Framework.Elements
 {
-    public class PriceField : Field, IPriceField
+    public class PriceField : InputField, IPriceField
     {
 
         public PriceField(string name, By path) : base(name, path)
@@ -19,6 +19,11 @@ namespace PecanTest.Framework.Elements
         public PriceField(string name, By path, Element parent) : base(name, path, parent)
         {
         }
+        public PriceField(string name, By path, Element parent, int maxChar) : base(name, path, parent)
+        {
+            this.maxChar = maxChar;
+        }
+
 
         public void CheckThatPriceField()
         {
@@ -26,7 +31,7 @@ namespace PecanTest.Framework.Elements
             CheckFillWithNegative();
             Clear();
             CheckFillAlphabetic();
-           // CheckMaksChar();
+            CheckMaxChars();
         }
 
         private void CheckFillAlphabetic()

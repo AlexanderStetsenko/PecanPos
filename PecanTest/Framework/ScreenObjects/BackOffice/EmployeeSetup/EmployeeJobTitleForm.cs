@@ -30,13 +30,13 @@ namespace PecanTest.Framework.ScreenObjects.BackOffice.EmployeeSetup
             this.parent = parent;
         }
 
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
             title = new Title("Job Titles", By.CssSelector("h2"));
             jobTitleName = new RequiredInputField("Job Titles Name", By.XPath("//div/app-input-form-input/input"), 50);
-            securityLevel = new Select("Security Level", By.XPath("//app-input-form-input[app-select]"), this);
+            securityLevel = new Select("Security Level", By.XPath(".//app-input-form-input[app-select]"), this);
             actionButtons = new ActionsButtons("Actions ", By.XPath("//app-footer-action-buttons"), this);
-            payRate = new PriceField("Pay Rate", By.XPath("//app-input-number/input"), this);
+            payRate = new PriceField("Pay Rate", By.XPath(".//app-input-number/input"), this, 8);
             hourlySalaried = new RadioButtonSection("Hourly Salaried", By.XPath("//mat-radio-group[1]"), this);
             return this;
         }

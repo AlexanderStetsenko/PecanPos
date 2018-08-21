@@ -22,11 +22,11 @@ namespace PecanTest.Framework.Elements
         {
         }
 
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
-            saveButton = new Button("Save Button", By.XPath("//app-footer-action-buttons/button[span='Save']"), this);
-            doneButton = new Button("Done Button", By.XPath("//app-footer-action-buttons/button[span='Done']"), this);
-            cancelButton = new Button("Cancel Button", By.XPath("//app-footer-action-buttons/button[span='Cancel']"), this);
+            saveButton = new Button("Save Button", By.XPath(".//app-footer-action-buttons/button[span='Save']"), this);
+            doneButton = new Button("Done Button", By.XPath(".//app-footer-action-buttons/button[span='Done']"), this);
+            cancelButton = new Button("Cancel Button", By.XPath(".//app-footer-action-buttons/button[span='Cancel']"), this);
             return this;
         }
 

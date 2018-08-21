@@ -36,7 +36,7 @@ namespace PecanTest.Framework.ScreenObjects
             InitWebElements();
         }
 
-        public virtual Element InitWebElements()
+        protected virtual Element InitWebElements()
         {
             return this;
         }

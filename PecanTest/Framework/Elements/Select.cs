@@ -22,8 +22,7 @@ namespace PecanTest.Framework.Elements
         public Select(string name, By path, Element parent) : base(name, path, parent)
         {
         }
-        
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
             input = new Field("Select input field", By.XPath("//input"));
             arrow = new Button("Select Arrow", By.CssSelector(".app-select-arrow"), this);
@@ -31,7 +30,6 @@ namespace PecanTest.Framework.Elements
             return this;
         }
     }
-
 
     public class SelectDropDown : Option
     {
@@ -61,7 +59,7 @@ namespace PecanTest.Framework.Elements
                 }
             }
         }
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
             option = new Option("Option", By.XPath("//app-option"), this);
             return this;

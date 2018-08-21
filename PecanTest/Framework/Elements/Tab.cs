@@ -14,10 +14,7 @@ namespace PecanTest.Framework.Elements
         {
         }
         public Tab(string name, By path, Element parent) : base(name, path, parent)
-        {
-            this.name = name;
-            this.path = path;
-            this.parent = parent;
+        { 
         }
 
         public void Select() {

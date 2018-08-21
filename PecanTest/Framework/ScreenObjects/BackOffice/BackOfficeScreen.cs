@@ -22,7 +22,7 @@ namespace PecanTest.Framework.ScreenObjects.BackOffice
             this.path = path;
         }
 
-        public override Element InitWebElements()
+        protected override Element InitWebElements()
         {
             generalTab = new Tab("General Tab", By.XPath("//app-office-menu/nav/a[@routerlink='/office/general']"), this);
             menuSetupTab = new Tab("Menu Setup Tab", By.XPath("//app-office-menu/nav/a[@routerlink='/office/menu']"));

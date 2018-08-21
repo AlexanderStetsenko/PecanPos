@@ -23,10 +23,6 @@ namespace PecanTest.Framework.Elements
         public Option(string name, By path, Element parent) : base(name, path, parent)
         {
         }
-
-
-
-
         public List<Option> GetOptionWebElementsList(Element parent, Option option)
         {
             var parentWeb = parent.GetWebElement();

@@ -52,6 +52,7 @@ namespace PecanTest.Tests
             app.backOffice.employeeSetupTab.employeeJobTitleForm.hourlySalaried.Select("Salaried");
 
             app.backOffice.employeeSetupTab.employeeJobTitleForm.hourlySalaried.Select("Hourly");
+
         }
 
 
